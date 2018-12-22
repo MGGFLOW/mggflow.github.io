@@ -6,7 +6,7 @@ body {
 div {
 	background-image: url(imgs/bcg.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	position: fixed;
 	top: 0;
 	left: 0;
