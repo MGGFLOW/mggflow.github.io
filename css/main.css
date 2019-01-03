@@ -1,9 +1,111 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
 body {
-	margin: 0;
 	background-color:#FFD8E6;
-	background-position: center;
-	background-attachment: fixed;
-	background-image: url(imgs/bcg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font: 16px/24px Arial,Tahoma,sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background: #000000;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.topmenu {
+	position: relative;
+	left: -3%;
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+
+.topmenu a{
+	margin: 0 0 0 10px;
+	color: #FFD8E6;
+}
+
+.topmenu a:hover{
+	color: #FFFFFF;
+}
+
+.micrologo {
+	padding: 0 0 0 2%;
+}
+
+/*
+.micrologo img:hover{
+	transform: scale(1.1);
+} */
+
+.content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #FFD8E6;
+	
+	position: relative;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.project {
+	/* width: 33%; */
+	width: 430px;
+	height: 222px;
+	margin: 20px auto;
+	background-color: #000000; 
+	
+	text-align: center;
+}
+
+.project:hover{
+	transform: scale(1.08);
+}
+
+.project p{
+	color: aliceblue;
+}
+
+.prj_name {
+	font-family: 'Merriweather', serif;
+	font-size: 200%;
+	padding: 20% 0 0;
+}
+
+.prj_extra {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	font-weight: lighter;
+	float: bottom;
+}
+
+.project a :hover{
+	color: cyan;
+}
+
+.footer {
+	position: absolute;
+ 	bottom: 0;
+  	width: 100%;
+  	height: 30px;
+	background: #262525;
+}
+
+.footer p{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	margin: 0;
+	color: #E5C5E0;
+	text-align: center;
+	padding: 5px 0 0 0;
 }
