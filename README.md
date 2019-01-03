@@ -1,1 +1,4 @@
-# mggflow.github.io
+# MGGFLOW Projects
+## Описание
+
+**MGGFLOW Projects** - это небольшая web-страница, созданная для отображения моих проектов и повышения коммуникации между [основным сайтом](https://mggflow.in) и [моим профилем на GitHub](https://github.com/MGGFLOW). На данный момент используются только средства HTML и CSS.
