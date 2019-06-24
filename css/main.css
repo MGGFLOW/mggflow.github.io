@@ -53,12 +53,12 @@ a {
 } */
 
 .content {
-	width: 100%;
+	width: 80%;
 	height: auto;
 	margin: 0 auto;
 	padding: 0 0 10px;
 	background-color: #FFD8E6;
-	
+	text-align: center;
 	/* position: relative; */
     padding-bottom: 40px;
     /* box-sizing: border-box; */
@@ -66,9 +66,10 @@ a {
 
 .project {
 	/* width: 33%; */
+	display: inline-block;
 	width: 430px;
 	height: 222px;
-	margin: 20px auto;
+	margin: 20px;
 	background-color: #000000; 
 	
 	text-align: center;
