@@ -122,3 +122,20 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	margin: auto;
 }
+
+@media screen and (max-device-width: 38.75em) {
+	.top-menu {
+		display: none;
+	}
+
+	.micrologo {
+		margin: auto;
+		float: none;
+	}
+
+	.header {
+		text-align: center;
+	}
+}
+
+
