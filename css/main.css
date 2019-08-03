@@ -57,6 +57,7 @@ a {
 
 .content {
 	width: 80%;
+	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
 	padding: 0 0 10px;
@@ -124,6 +125,10 @@ a {
 }
 
 @media screen and (max-device-width: 38.75em) {
+	.content {
+		width: 100%;
+	}
+
 	.topmenu {
 		display: none;
 	}
